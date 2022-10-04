@@ -1,3 +1,21 @@
+Rhaenyra
+https://static.wikia.nocookie.net/gameofthrones/images/5/56/RhaenyraTargaryenSoHN.PNG/revision/latest?cb=20220901124204
+
+Alicent Hightower
+https://hollywoodlife.com/wp-content/uploads/2022/09/alicent-hightower-evergreen-house-of-the-dragons-embed2.jpg
+
+King Viserys
+https://static.wikia.nocookie.net/gameofthrones/images/3/38/Viserys_I_Targaryen_Official_Guide.jpg/revision/latest/top-crop/width/360/height/360?cb=20220826232345
+
+Daemon Targaryen
+https://static.wikia.nocookie.net/gameofthrones/images/1/11/Daemon_Targaryen_1x1.jpg/revision/latest?cb=20220824113226
+
+Laenor Velaryon
+https://static.wikia.nocookie.net/gameofthrones/images/e/ed/Laenor_Velaryon_Official_Guide_2.jpg/revision/latest?cb=20220905143015
+
+Laena Velaryon
+https://static.wikia.nocookie.net/gameofthrones/images/3/35/Laena_Velaryon_Official_Guide.jpg/revision/latest?cb=20220823094916
+
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
 # House of the Dragon!
