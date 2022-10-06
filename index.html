@@ -5,63 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./index.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Roboto+Slab:wght@200;400&display=swap" rel="stylesheet">
     <script src="./index.js" defer></script>
     <title>House of Dragons</title>
 </head>
 <body>
-    <h1>House of Dragons</h1>
+    <h1>House of the Dragon</h1>
+    <div><input id="search-bar" type="text" placeholder="Search..."></div>
     <container class="character-container">
+        <!-- Rheanyra -->
         <div class="character">
             <div class="name">Rheanyra</div>
-            <div class="picture" id="rheanyra"></div>
+            <div class="picture" id="rheanyra-pic"></div>
+            <div class="bio" id="rheanyra-bio-content">The only surviving child of King Viserys and his first wife, Aemma Arryn.</div>
+            <div class="status" id="rheanyra-status-content">Alive</div>
             <div class="buttons">
-                <div class="bio-btn">Bio</div>
-                <div class="status-btn">Status</div>
+                <div class="bio-btn" id="rheanyra-bio">Bio</div>
+                <div class="status-btn" id="rheanyra-status">Status</div>
             </div>
         </div>
-
+        <!-- Daemon -->
         <div class="character">
             <div class="name">Daemon Targaryen</div>
-            <div class="picture" id="daemon"></div>
+            <div class="picture" id="daemon-pic"></div>
+            <div class="bio" id="daemon-bio-content">Prince of the Targaryen dynasty, the younger brother of King Viserys I Targaryen, and uncle of Princess Rhaenyra Targaryen.</div>
+            <div class="status" id="daemon-status-content">Alive</div>
             <div class="buttons">
-                <div class="bio-btn">Bio</div>
-                <div class="status-btn">Status</div>
+                <div class="bio-btn" id="daemon-bio">Bio</div>
+                <div class="status-btn" id="daemon-status">Status</div>
             </div>
         </div>
-
+        <!-- King Viserys -->
         <div class="character">
             <div class="name">King Viserys</div>
-            <div class="picture" id="king-viserys"></div>
+            <div class="picture" id="king-viserys-pic"></div>
+            <div class="bio" id="king-viserys-bio-content">King Viserys Targaryen was the fifth Targaryen king to sit the Iron Throne, ruling from 103 AC to 129 AC</div>
+            <div class="status" id="king-viserys-status-content">Alive</div>
             <div class="buttons">
-                <div class="bio-btn">Bio</div>
-                <div class="status-btn">Status</div>
+                <div class="bio-btn" id="king-viserys-bio">Bio</div>
+                <div class="status-btn" id="king-viserys-status">Status</div>
             </div>
         </div>
-
+        <!-- Laenor -->
         <div class="character">
             <div class="name">Laenor Velaryon</div>
-            <div class="picture" id="laenor"></div>
+            <div class="picture" id="laenor-pic"></div>
+            <div class="bio" id="laenor-bio-content"> Ser Laenor Velaryon is the only son of Lord Corlys and Rhaenys. He is married to Princess Rheanyra.</div>
+            <div class="status" id="laenor-status-content">Dead</div>
             <div class="buttons">
-                <div class="bio-btn">Bio</div>
-                <div class="status-btn">Status</div>
+                <div class="bio-btn" id="laenor-bio">Bio</div>
+                <div class="status-btn" id="laenor-status">Status</div>
             </div>
         </div>
-
+        <!-- Alicent -->
         <div class="character">
             <div class="name">Alicent Hightower</div>
-            <div class="picture" id="alicent"></div>
+            <div class="picture" id="alicent-pic"></div>
+            <div class="bio" id="alicent-bio-content">Alicent Hightower was a member of House Hightower who became the second wife to King Viserys I Targaryen. She was the daughter of Ser Otto Hightower</div>
+            <div class="status" id="alicent-status-content">Alive</div>
             <div class="buttons">
-                <div class="bio-btn">Bio</div>
-                <div class="status-btn">Status</div>
+                <div class="bio-btn" id="alicent-bio">Bio</div>
+                <div class="status-btn" id="alicent-status">Status</div>
             </div>
         </div>
-
+        <!-- Laena -->
         <div class="character">
             <div class="name">Laena Velaryon</div>
-            <div class="picture" id="laena"></div>
+            <div class="picture" id="laena-pic"></div>
+            <div class="bio" id="laena-bio-content">Laena Velaryon was a member of House Velaryon, and the second wife of Daemon Targaryen. She died after giving birth to her unnamed stillborn son.</div>
+            <div class="status" id="laena-status-content">Dead</div>
             <div class="buttons">
-                <div class="bio-btn">Bio</div>
-                <div class="status-btn">Status</div>
+                <div class="bio-btn" id="laena-bio">Bio</div>
+                <div class="status-btn" id="laena-status">Status</div>
             </div>
         </div>
     </container>
