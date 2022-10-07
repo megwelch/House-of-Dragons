@@ -14,6 +14,17 @@ h1 {
     font-family: Cinzel;
 }
 
+#search-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#search-button {
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
 #search-bar {
     outline: none;
     height: 25px;
@@ -80,6 +91,30 @@ h1 {
 
 #laena-pic {
     background-image: url('images/laena.png');
+}
+
+#westerling-pic {
+    background-image: url('images/westerling.png');
+}
+
+#otto-pic {
+    background-image: url('images/otto.png');
+}
+
+#harwin-pic {
+    background-image: url('images/harwin.png');
+}
+
+#rhaenys-pic {
+    background-image: url('images/rhaenys.png');
+}
+
+#criston-pic {
+    background-image: url('images/criston.png');
+}
+
+#vaemond-pic {
+    background-image: url('images/vaemond.png');
 }
 
 .buttons {

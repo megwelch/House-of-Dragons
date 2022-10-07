@@ -13,10 +13,13 @@
 </head>
 <body>
     <h1>House of the Dragon</h1>
-    <div><input id="search-bar" type="text" placeholder="Search..."></div>
+    <div id="search-container">
+        <div><input id="search-bar" type="text" placeholder="Find a character"></div>
+        <button type="button" id="search-button">Search</button>
+    </div>
     <container class="character-container">
         <!-- Rheanyra -->
-        <div class="character">
+        <div class="character" id="rheanyra">
             <div class="name">Rheanyra</div>
             <div class="picture" id="rheanyra-pic"></div>
             <div class="bio" id="rheanyra-bio-content">The only surviving child of King Viserys and his first wife, Aemma Arryn.</div>
@@ -27,7 +30,7 @@
             </div>
         </div>
         <!-- Daemon -->
-        <div class="character">
+        <div class="character" id="daemon">
             <div class="name">Daemon Targaryen</div>
             <div class="picture" id="daemon-pic"></div>
             <div class="bio" id="daemon-bio-content">Prince of the Targaryen dynasty, the younger brother of King Viserys I Targaryen, and uncle of Princess Rhaenyra Targaryen.</div>
@@ -38,7 +41,7 @@
             </div>
         </div>
         <!-- King Viserys -->
-        <div class="character">
+        <div class="character" id="viserys">
             <div class="name">King Viserys</div>
             <div class="picture" id="king-viserys-pic"></div>
             <div class="bio" id="king-viserys-bio-content">King Viserys Targaryen was the fifth Targaryen king to sit the Iron Throne, ruling from 103 AC to 129 AC</div>
@@ -49,7 +52,7 @@
             </div>
         </div>
         <!-- Laenor -->
-        <div class="character">
+        <div class="character" id="laenor">
             <div class="name">Laenor Velaryon</div>
             <div class="picture" id="laenor-pic"></div>
             <div class="bio" id="laenor-bio-content"> Ser Laenor Velaryon is the only son of Lord Corlys and Rhaenys. He is married to Princess Rheanyra.</div>
@@ -60,7 +63,7 @@
             </div>
         </div>
         <!-- Alicent -->
-        <div class="character">
+        <div class="character" id="alicent">
             <div class="name">Alicent Hightower</div>
             <div class="picture" id="alicent-pic"></div>
             <div class="bio" id="alicent-bio-content">Alicent Hightower was a member of House Hightower who became the second wife to King Viserys I Targaryen. She was the daughter of Ser Otto Hightower</div>
@@ -71,14 +74,80 @@
             </div>
         </div>
         <!-- Laena -->
-        <div class="character">
+        <div class="character" id="leana">
             <div class="name">Laena Velaryon</div>
             <div class="picture" id="laena-pic"></div>
-            <div class="bio" id="laena-bio-content">Laena Velaryon was a member of House Velaryon, and the second wife of Daemon Targaryen. She died after giving birth to her unnamed stillborn son.</div>
+            <div class="bio" id="laena-bio-content">Laena Velaryon was a member of House Velaryon, and the second wife of Daemon Targaryen.</div>
             <div class="status" id="laena-status-content">Dead</div>
             <div class="buttons">
                 <div class="bio-btn" id="laena-bio">Bio</div>
                 <div class="status-btn" id="laena-status">Status</div>
+            </div>
+        </div>
+        <!-- ser harold westerling -->
+        <div class="character" id="harold">
+            <div class="name">Ser Harold Westerling</div>
+            <div class="picture" id="westerling-pic"></div>
+            <div class="bio" id="westerling-bio-content">Ser Harrold Westerling was a knight from House Westerling and the Lord Commander of the Kingsguard under King Viserys I Targaryen.</div>
+            <div class="status" id="westerling-status-content">Dead</div>
+            <div class="buttons">
+                <div class="bio-btn" id="westerling-bio">Bio</div>
+                <div class="status-btn" id="westerling-status">Status</div>
+            </div>
+        </div>
+        <!-- otto hightower -->
+        <div class="character" id="otto">
+            <div class="name">Otto Hightower</div>
+            <div class="picture" id="otto-pic"></div>
+            <div class="bio" id="otto-bio-content">Otto is the younger brother of Lord Hobert Hightower and the father of Gwayne and Alicent Hightower. He is the Hand of the King to Viserys I Targaryen.</div>
+            <div class="status" id="otto-status-content">Alive</div>
+            <div class="buttons">
+                <div class="bio-btn" id="otto-bio">Bio</div>
+                <div class="status-btn" id="otto-status">Status</div>
+            </div>
+        </div>
+        <!-- ser harwin strong -->
+        <div class="character" id="harwin">
+            <div class="name">Ser Harwin Strong</div>
+            <div class="picture" id="harwin-pic"></div>
+            <div class="bio" id="harwin-bio-content">Ser Harwin Strong, popularly called Breakbones, was a knight of House Strong. He was the eldest son and heir of Lord Lyonel Strong of Harrenhal </div>
+            <div class="status" id="harwin-status-content">Dead</div>
+            <div class="buttons">
+                <div class="bio-btn" id="harwin-bio">Bio</div>
+                <div class="status-btn" id="harwin-status">Status</div>
+            </div>
+        </div>
+        <!-- Princess Rhaenys -->
+        <div class="character" id="rhaenys">
+            <div class="name">Rhaenys Targaryen</div>
+            <div class="picture" id="rhaenys-pic"></div>
+            <div class="bio" id="rhaenys-bio-content">Princess Rhaenys Targaryen, known as the Queen Who Never Was, was the daughter of Prince Aemon Targaryen and Lady Jocelyn Baratheon.</div>
+            <div class="status" id="rhaenys-status-content">Alive</div>
+            <div class="buttons">
+                <div class="bio-btn" id="rhaenys-bio">Bio</div>
+                <div class="status-btn" id="rhaenys-status">Status</div>
+            </div>
+        </div>
+        <!-- Ser Criston Cole -->
+        <div class="character" id="criston">
+            <div class="name">Criston Cole</div>
+            <div class="picture" id="criston-pic"></div>
+            <div class="bio" id="criston-bio-content">Ser Criston Cole was a knight from House Cole who rose to become Lord Commander of the Kingsguard for Viserys I Targaryen.</div>
+            <div class="status" id="criston-status-content">Dead</div>
+            <div class="buttons">
+                <div class="bio-btn" id="criston-bio">Bio</div>
+                <div class="status-btn" id="criston-status">Status</div>
+            </div>
+        </div>
+        <!-- Ser Vaemond Valaryon -->
+        <div class="character" id="vaemond">
+            <div class="name">Ser Vaemond Valaryon</div>
+            <div class="picture" id="vaemond-pic"></div>
+            <div class="bio" id="vaemond-bio-content">Ser Vaemond Velaryon was a knight from House Velaryon during the reign of King Viserys I Targaryen. He had two sons, Daemion and Daeron Velaryon.</div>
+            <div class="status" id="vaemond-status-content">Dead</div>
+            <div class="buttons">
+                <div class="bio-btn" id="vaemond-bio">Bio</div>
+                <div class="status-btn" id="vaemond-status">Status</div>
             </div>
         </div>
     </container>

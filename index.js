@@ -1,5 +1,7 @@
 const bioBtn = document.getElementsByClassName('bio-btn')
 const statusBtn = document.getElementsByClassName('status-btn')
+let search = document.getElementById('search-bar')
+let searchButton = document.getElementById('search-button')
 
 const displayBio = (event) => {
     let characterBio = event.target.getAttribute('id')
@@ -30,3 +32,12 @@ const displayStatus = (event) => {
 for (i = 0; i < statusBtn.length; i++){
     statusBtn[i].addEventListener('click', displayStatus)
 }
+
+const characterSearch = () => {
+    let input = search.value.toLowerCase()
+    let character = document.getElementById(input)
+    console.log(character)
+    character.scrollIntoView()
+}
+
+searchButton.addEventListener('click', characterSearch)
